@@ -1,0 +1,293 @@
+h1{
+    font-family:'Nunito';
+    color: white;
+}
+h3{
+    font-family:'Nunito';
+    color: white;
+}
+a{
+    font-family:'Nunito';
+	text-decoration:none;
+    color: white;
+}
+
+body {
+    font-family: 'Inter', sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-left: 101px;
+    margin-top: 30px;
+	padding: 10px;
+    height: 107px;
+    width: 683px;
+    text-align: center;
+    background: url(../img/Trasavelogo.png) no-repeat top left;
+}
+
+#menu_principal{
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu_prinicpal ul{
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* propriedades unicas */
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+a#home{
+    color: #49B649;
+    width: 61px;
+    height: 30px;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+a#save{
+    color: #ffffff;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+a#travel{
+    color: #ffffff;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+a#experience{
+    color: #ffffff;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+a#wallet{
+    color: #ffffff;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+#banner{
+    height: 940px;
+    width: 1440;
+}
+p.text1{
+    position: absolute;
+width: 705px;
+height: 222px;
+left: 101px;
+top: 202px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 74px;
+letter-spacing: 0.04em;
+
+color: white;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+p.text2{
+    position: absolute;
+    width: 540px;
+    height: 99px;
+    left: 101px;
+    top: 438px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
+
+div.qverde{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 101px;
+    top: 592px;
+    
+    background: #49B649;
+    border-radius: 10px;
+}
+p.save{
+    width: 115px;
+height: 33px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+#conteudo{
+    height: 800px;
+    width: 1440px;
+}
+p.why{
+    width: 711px;
+    height: 87px;
+    
+    margin-left: 350px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+p.ambi{
+    width: 1128px;
+height: 99px;
+
+margin-left: 200px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#conteudo2{
+    height: 720px;
+    width: 1440px;
+}
+
+p.saveget{
+    width: 532px;
+height: 152px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 76px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+p.traseve{
+    width: 601px;
+height: 231px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+footer{
+    height: 400px;
+    width: 1440px;
+    color: #FFFFFF;
+    background: url(../img/unsplash_1FxMET2U5dU.png);
+}
+
+#rodape{
+    width: 315px;
+    height: 321.84px;
+    margin-left: 112px;
+    margin-top: 16px;
+	padding: 0px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+a#instagram{
+    background: url(../img/Instagram.png);
+}
+a:hover#instagram{
+    background: url(../img/Instagram.png);
+    color: #FFFFFF;
+}
+
+
+
